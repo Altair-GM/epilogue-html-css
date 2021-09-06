@@ -1,7 +1,11 @@
 body{
-    background-color:rgb(221, 212, 206);
-}
+    background-color:rgba(231, 230, 229, 0.87);
 
+    margin: 0%;
+
+
+
+}
 
 header{
 
@@ -12,26 +16,31 @@ header{
     justify-content: center;
     align-items: center;
     background-repeat: no-repeat;
-    background-position: 0vmax;
-    width: 100%;
+    background-size:cover;
+    background-attachment: fixed;
+    padding: 10%;
+    
+    height: 40vh;
+
     
     
 }
 header h1{
     font-family: 'Dancing Script', cursive;
     color: whitesmoke;
-    font-size: 300%;
+    font-size: 500%;
     margin: 0%;
     padding:0%;
-    width: 10%;
+    width: auto;
 }
 
 header p{
     color: whitesmoke;
+    margin: 0%;
 }
 header hr{
     width: 50%;
-    margin: auto;
+    margin: 2%;
 }
 
 /* Section 1 */
@@ -51,6 +60,19 @@ section:first-of-type i{
     padding: 2%;
 }
 /* Section 2 Cards */
+
+.boite1 div span{
+    position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8% 10%;
+    
+}
+.boite2 div span{
+    position: absolute;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8% 10%;
+}
+
 .boite1,.boite2{
     display: flex;
     justify-content: center;
@@ -60,7 +82,7 @@ section:first-of-type i{
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
-
+    padding-bottom: 2%;
     margin: 1%;
     width: 40%;
     
@@ -75,9 +97,9 @@ section:first-of-type i{
     background-color: whitesmoke;
     display: flex;
     flex-direction: column;
-
+    padding-bottom: 2%;
     margin: 1%;
-    width: 40%;
+    width: 35%;
     
 }
 
@@ -85,4 +107,62 @@ section:first-of-type i{
     width: 20%;
     margin: auto;
 }
+section .boite1,.boite2 p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', serif;
+    font-size: 90%;
+    padding: 5% 5%;
+    text-align: center;
+    margin: 0% 2%;
 
+}
+
+section button{
+    background-color: whitesmoke;
+    padding: 1% 2%;
+    margin-top: 5%;
+}
+
+img:hover{
+    -webkit-transform: scale(1.15);
+        transform: scale(1.15);
+        filter:blur(1px);
+}
+/* Section3 */
+
+section:nth-of-type(3){
+    text-align: center;
+    margin: auto;
+}
+
+h2:last-of-type{
+    margin: 2%;
+}
+
+section:nth-of-type(3) button{
+    margin: 0%;
+    
+}
+.ligne{
+   width: 10%; height: 2%;
+   background-color: black;
+    margin: 5% auto;
+
+}
+
+/* footer+rsx */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+footer div{
+    text-align: center;
+   width: 100%;
+}
+div i{
+    
+    padding: 0% 0.5%;
+}
