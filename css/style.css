@@ -1,0 +1,88 @@
+body{
+    background-color:rgb(221, 212, 206);
+}
+
+
+header{
+
+    
+    background-image: url(../images/banner.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: 0vmax;
+    width: 100%;
+    
+    
+}
+header h1{
+    font-family: 'Dancing Script', cursive;
+    color: whitesmoke;
+    font-size: 300%;
+    margin: 0%;
+    padding:0%;
+    width: 10%;
+}
+
+header p{
+    color: whitesmoke;
+}
+header hr{
+    width: 50%;
+    margin: auto;
+}
+
+/* Section 1 */
+
+section:first-of-type{
+    text-align: center;
+    display: flex;
+    margin: 5% 5%;
+    padding: 5%;
+
+    background-color: whitesmoke;
+}
+
+section:first-of-type i{
+    border: solid 2px black;
+    border-radius: 50%;
+    padding: 2%;
+}
+/* Section 2 Cards */
+.boite1,.boite2{
+    display: flex;
+    justify-content: center;
+
+}
+.boite1 div{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+
+    margin: 1%;
+    width: 40%;
+    
+}
+
+.boite1 div button{
+    width: 20%;
+    margin: auto;
+}
+
+.boite2 div{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+
+    margin: 1%;
+    width: 40%;
+    
+}
+
+.boite2 div button{
+    width: 20%;
+    margin: auto;
+}
+
